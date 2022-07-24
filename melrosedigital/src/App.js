@@ -1,5 +1,6 @@
 import './App.css';
-import image from "./img/TMblack.svg";
+import image from './'
+// import image from "./img/TMblack.svg";
 
 function App() {
   return (
