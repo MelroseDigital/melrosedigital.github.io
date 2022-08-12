@@ -37,16 +37,70 @@
             <!-- //TODO- Rearrange order to Home, About, Skill, Projects, Contacts -->
                 <!-- //TODO- Can App.js Cover be added/used? -->
         <!-- Masthead-->
+        import "./App.css";
+import Footer from "../src/elements/Footer";
+import image from "./images/TMblack.svg";
+
+function App() {
+  return (
+    <>
+    {/* <Route><Intro /></Route> */}
+      <div className="App">
+        <header className="App-header">
+          <img src={image} className="App-logo" alt="logo" />
+          <p>
+            Tenyce Melrose<code> : </code>Software Developer
+          </p>
+          <a
+            className="App-link"
+            href="https://github.com/MelroseDigital"
+            target="_blank"
+            rel="noopener"
+          >
+            View Github Profile
+          </a>
+          <a
+            className="App-link"
+            href="https://app.revature.com/profile/Melrose/6f3530d4bd907a14942dafda0fab0290 "
+            target="_blank"
+            rel="noopener"
+          >
+            View Professional Portfolio
+            <a
+            className="App-link"
+            href="https://linkedin.com "
+            target="_blank"
+            rel="noopener"
+          >
+            View LinkedIn Profile
+          </a>
+          </a>
+        </header>
+      </div>
+    
+    
+      {/* <Skills />
+      <Projects />
+      <Services />
+      <Contact /> */}
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+
+
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase"></h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> Home </h2>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> Scroll to Learn More </h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">  </h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> </h2>
                             <!-- //TODO down icon -->
 
-                        <!-- <a class="btn btn-primary" href="#about">Get Started</a> -->
+                        <!-- About Section Begins Below -->
                     </div>
                 </div>
             </div>
