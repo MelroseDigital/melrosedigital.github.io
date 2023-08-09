@@ -8060,6 +8060,11 @@ textarea.form-control-lg {
   background-image: var(--bs-gradient) !important;
 }
 
+@keyframes rot{
+  100%{
+    transform: rotate(360deg);
+  }
+}
 
 .user-select-all {
   -webkit-user-select: all !important;
