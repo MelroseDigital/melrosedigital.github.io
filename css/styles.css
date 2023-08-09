@@ -11744,15 +11744,3 @@ body {
 .input:checked ~ .input:active {
   background-position: 0 -24px;
 }
-
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
-.background {
-  width: 100vw;
-  height: 100vh;
-  background: #3E1E68;
-}
-
